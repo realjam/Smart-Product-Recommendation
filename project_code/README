@@ -1,0 +1,35 @@
+------------------------------Recommendation system engine-----------------
+Point to be noted:
+1. L(W)AMP server
+2. MySQL database name project. See the config.php file for more detail
+3. Import project.sql file to database project
+4. index.php is the main executable
+5. Contain only 11 books in DB. Add much as you can through add.php file
+
+
+
+
+-------------------------------------------------------------------------------------------------
+add.php : 	To add product to database
+bye.php: 	To sign out
+checkLogin.php: Check whether user is logged in or not
+config.php:  	Database configuration and setting
+list.php: 	List all product from database
+login.php: 	Login UI code
+pass.php: 	Used to Change password of user
+process.php:  	Sign in / signup Authentication process
+project.sql: 	DB table conf used in prog
+rate.php:  	Process rating from user and store in DB
+rating.php: 	Show the rated product by user
+recom.php:  	Calculate and show the recommended product
+recommend.php:  Recommendation class. Calculate the recommendation for user
+search.php: 	Search the product by name only
+update.js:  	AJAX script to update page without refreshing
+-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+image: 		Contain all image of product and website logo. Product image will be created automatically when adding product through add.php only.
+js: 		all JavaScript file use in prog
+css: 		Styling and cascading of page UI.
+----------------------------------------------------------------------------------------------
+
+NOTE: Don't rename any file. Use at own risk(). Advance Apologies  for Grammar / Spelling mistakes. Suggestions / Advice always welcomed.

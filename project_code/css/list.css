@@ -1,0 +1,23 @@
+ .imageHolder {
+ position: relative; 
+ width: 200px; 
+ height: 200px;
+ } 
+ 
+ .imageHolder .caption {
+ opacity: 0; 
+ position: absolute;  
+ bottom: 0px; left: 0px;
+ padding: 2px 0px;
+ color: red; 
+ background: black; 
+ text-align: center; 
+ font-weight:bold; } 
+ 
+ .imageHolder:hover .caption { 
+ opacity: 2;
+ } 
+ 
+.imageHolder:hover {
+opacity: 1; 
+}
